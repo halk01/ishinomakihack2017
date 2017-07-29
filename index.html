@@ -10,6 +10,7 @@
   <script id="topTemplate" type="text/ractive">
     <h1 on-click="@this.showNext()">Top page</h1>
     <div align="center">
+    <tr>
     <td>
     <img src="" value="ロゴ"/>
     </td>
@@ -26,12 +27,13 @@
     <input type="submit" onClick="" value="お悩み相談室">
     </td>
     <td>
-    <img >value="お悩み画像"</img>
+    <img src="" value="お悩み画像"/>
     </td>
     <td>
     <input type="submit" onClick="" value="悩みを打ち明ける">
     </td>
     </tr>
+    </div>
     </script>
     
     
@@ -96,12 +98,12 @@
     </div>
   </script>
 
-   <script id="TimeLineTemplate" type="text/ractive">
-    <h1 on-click="@this.showNext()">TimeLine page</h1>
+   <script id="ListTemplate" type="text/ractive">
+    <h1 on-click="@this.showNext()">List page</h1>
   </script>
 
-   <script id="NewsTemplate" type="text/ractive">
-    <h1 on-click="@this.showNext()">News page</h1>
+   <script id="ArticleTemplate" type="text/ractive">
+    <h1 on-click="@this.showNext()">article page</h1>
   </script>
 
 
@@ -127,6 +129,11 @@
                              <input type="text" name="onayami_naiyou" value="">
                          </td>
                          </tr>
+                     <tr>
+                         <td >
+                         <input type="button" onClick="" value="記事を投稿する">
+                         </td >
+                     </tr>
    </script>
 
   <link rel="stylesheet" type="text/css" href="./css/main.css"/>
